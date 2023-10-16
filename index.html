@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generative art</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <canvas id="Canvas1"></canvas>
+    <div id="controls">
+        <button id="randomizeButton">Randomize!</button>
+        <div>
+            <input id="spread" type="range" min="-0.3" max="0.3" step="0.01" value="1">
+            <label for="spread">Spread: </label>
+        </div>
+        <div>
+            <input id="sides" type="range" min="2" max="22" step="1" value="5">
+            <label for="sides">Sides: </label>
+        </div>
+        <button id="resetButton">Reset</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
